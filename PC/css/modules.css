@@ -1,4 +1,7 @@
-﻿/* Slider */
+﻿/*
+ * name    : slick
+ * content : 
+ */
 .slick-slider { position: relative; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
 
 .slick-list { position: relative; overflow: hidden; display: block; margin: 0; padding: 0; }
@@ -36,37 +39,6 @@
 [dir="rtl"] .slick-prev:before {content: "\2192";}
 [dir="rtl"] .slick-slide {float: right;}
 
-
-
-/*
- * name    : 原子类
- * content : fn
- */
-.fn_fl{ float:left;}
-.fn_fr{ float:right;}
-.fn_tl{ text-align:left !important;}
-.fn_tc{ text-align:center !important;}
-.fn_tr{ text-align:right !important;}
-.fn_inBlock{display:inline-block; *display:inline;*zoom:1; }
-.fn_unline{ text-decoration:underline;}
-.fn_inText{ border:1px solid #ccc; height:19px; line-height:19px; padding:0px 3px;}
-.fn_h40{ height:40px; clear:both;}
-
-/*
- * name    : common
- * content : 公共元素
- */
-body{}
-.com_ele_pics{ background:url(../images/common_ele_pics.png) no-repeat 0px 0px;display:inline-block;*display:inline;*zoom:1;}
-.searchBg{ background-position:0px 0px; width:187px; height:25px; border:0;}
-.iconList{width:7px; height:7px; background-position:0px -25px;}
-
-.comm_searchCon{ overflow:hidden; *margin-top:20px;}
-.comm_searchCon input{float:left;}
-.comm_searchCon .txt{ height:25px; line-height:25px; padding:0px 5px;width:143px; background-color:transparent; border:0; color:#888; }
-.comm_searchCon .searchBtn{height:25px;width:34px; border:0; background-color:transparent;}
-
-
 /*
  * name    : nav_module
  * content : 主导航栏模块
@@ -82,34 +54,6 @@ body{}
 .nav_child .item{ height:35px; line-height:35px; font-size:14px; color:#000; display:block; text-align:center; text-decoration:none;}
 .nav_child .item:hover{ background-image:url(../images/common_ele_pic_navCBG_hover.png);}
 .nav_module .np_item:hover .nav_child{ display:block;}
-
-
-/*
- * name    : header
- * content : 头部样式
- */
-.header{ background:url(../images/common_ele_pic_headBg.png) repeat-x 0px 0px transparent; height:105px; width:100%; position:relative; z-index:10;}
-.header_con{width:1002px; margin:0px auto;}
-.logo_con a{ vertical-align:middle; padding-top:10px; display:block;}
-
-.headerRight_con_top{ height:54px; line-height:54px; text-align:right; width:706px;}
-.headerRight_con_top .item{ display:inline-block;*display:inline;*zoom:1; font-size:12px; color:#888; margin-left:10px; vertical-align:middle;}
-.headerRight_con_top .comm_searchCon{ height:25px; vertical-align:middle; text-align:left;}
-
-
-/*
- * name    : mainContainer
- * content : 主要内容容器样式
- */
-.mainContainer{width:100%; top:-8px; margin:0px auto; background-color:#fff; min-height:840px; z-index:0; position:relative;}
-
-/*
- * name    : index_dataBar
- * content : index页容器样式
- */
-.index_dataBar{width:100%;margin:0px auto;overflow:hidden;}
-.index_dataBar-bottom{ width:1002px; margin:0px auto;}
-.index_dataBar-bottom .columnCon_module{float:left; white-space:nowrap; width:303px; margin-right:31px; margin-top:30px;}
 
 /*
  * name    : bannerShow_module
@@ -153,13 +97,3 @@ body{}
 .newsList_module-item .txt,.newsList_module-item .time{ display:inline-block;*display:inline;*zoom:1; vertical-align:middle; font-size:14px; text-decoration:none; color:#5c5a5a;} 
 .newsList_module-item .txt{-o-text-overflow:ellipsis;text-overflow:ellipsis; white-space:nowrap;overflow:hidden; width:240px;}
 .newsList_module-item .txt:hover{ text-decoration:underline;}
-
-/*
- * name    : footer
- * content : footer
- */
-.footer{height:75px;width:100%; background-color:#e5e5e5;}
-.footer-con{width:1040px; margin:0px auto;}
-.footer-con table{ width:100%; border:none;}
-.footer-con table td{height:75px; color:#333333; font-size:12px; text-align:center; line-height:20px; font-family:"宋体";}
-.footer-con table td a{ vertical-align:middle; margin:0px 4px;}

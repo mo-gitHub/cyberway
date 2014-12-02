@@ -4,7 +4,7 @@
     <title>嘉丹婷官网</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <!-- External CSS -->
-    <link href="/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="/css/cyb.common.css" rel="stylesheet" type="text/css" />
     <!-- JavaScript -->
     <script src="/scripts/require.js"  data-main="/scripts/gdt.page"></script>
 </head>
