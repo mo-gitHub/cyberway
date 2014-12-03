@@ -92,8 +92,8 @@
  * content : 新闻列表模块
  */
 .newsList_module,.newsList_module-item{ margin:0px; padding:0px;}
-.newsList_module-item{ height:28px; line-height:28px; list-style:none;}
+.newsList_module-item{ height:28px; line-height:28px; list-style:none; border-bottom:1px dotted #CCCCCC;}
 .newsList_module-item .iconList{ vertical-align:middle; margin-right:6px;}
 .newsList_module-item .txt,.newsList_module-item .time{ display:inline-block;*display:inline;*zoom:1; vertical-align:middle; font-size:14px; text-decoration:none; color:#5c5a5a;} 
-.newsList_module-item .txt{-o-text-overflow:ellipsis;text-overflow:ellipsis; white-space:nowrap;overflow:hidden; width:240px;}
-.newsList_module-item .txt:hover{ text-decoration:underline;}
+.newsList_module-item .txt{-o-text-overflow:ellipsis;text-overflow:ellipsis; white-space:nowrap;overflow:hidden; width:94%; margin-right:10px;}
+.newsList_module-item .txt:hover{ text-decoration:underline; color:#F00;}
