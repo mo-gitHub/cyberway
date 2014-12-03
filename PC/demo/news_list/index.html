@@ -11,11 +11,30 @@
     <script type="text/javascript" src="../scripts/shCore.js"></script>
     <script type="text/javascript" src="../scripts/shBrushCss.js"></script>
     <script type="text/javascript">
+        SyntaxHighlighter.config.clipboardSwf = '/scripts/clipboard.swf';
         SyntaxHighlighter.all();
     </script>
     <script type="text/javascript">
 
+        SyntaxHighlighter.config.clipboardSwf = '/scripts/clipboard.swf';
+
         SyntaxHighlighter.config.strings = {
+
+            expandSource : '展开代码',
+
+            viewSource : '查看代码',
+
+            copyToClipboard : '复制代码',
+
+            copyToClipboardConfirmation : '代码复制成功',
+
+            print : '打印',
+
+            help: '?',
+
+            alert: '语法高亮\n\n',
+
+            noBrush: '不能找到刷子: ',
 
             brushNotHtmlScript: '刷子没有配置html-script选项',
 
@@ -54,8 +73,8 @@
     </ul>
 <!-- 新闻列表模块 End -->
 <h3>模块代码</h3>
-<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
-<pre class="brush:css;">
+<div style="border:1px solid #999; margin:10px; padding:10px;">
+     <pre class="brush:css;">
 <ul class="newsList_module">
   <li class="newsList_module-item"><i class="com_ele_pics iconList"></i><a class="txt"
                                         href="#">新晋升业务总监授章仪式隆重举行新晋升业务总监授章仪式隆重举新晋升业务总监授章仪式隆重举新晋升业务总监授章仪式隆重举新晋升业务总监授章仪式隆重举行新晋升业务总监授章仪式隆重举新晋升业务总监授章仪式隆重举新晋升业务总监授章仪式隆重举仪式隆重举新晋升业务总监授章仪式隆重举</a><span class="time">[2014-07-15]</span></li>
@@ -81,7 +100,7 @@
 </pre>
     </div>
 <h3>模块样式</h3>
-<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<div style="border:1px solid #999; margin:10px; padding:10px;">
 <pre class="brush:css;">
 .newsList_module,.newsList_module-item{ margin:0px; padding:0px;}
 .newsList_module-item{ height:28px; line-height:28px; list-style:none; border-bottom:1px dotted #CCCCCC;}
