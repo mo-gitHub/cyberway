@@ -97,3 +97,48 @@
 .newsList_module-item .txt,.newsList_module-item .time{ display:inline-block;*display:inline;*zoom:1; vertical-align:middle; font-size:14px; text-decoration:none; color:#5c5a5a;} 
 .newsList_module-item .txt{-o-text-overflow:ellipsis;text-overflow:ellipsis; white-space:nowrap;overflow:hidden; width:94%; margin-right:10px;}
 .newsList_module-item .txt:hover{ text-decoration:underline; color:#F00;}
+
+/*
+ * name    : pictureList_module
+ * content : 图片列表模块
+ */
+.pictureList_module {margin:0px; padding:0px;}
+.pictureList_module li {display:inline-block;*display:inline;*zoom:1;width: 152px;height:195px;margin-right: 20px; margin-bottom:20px; }
+.pictureList_module a {display: block; width: 152px; text-align: center;}
+.pictureList_module a:hover {text-decoration: none; _zoom: 1;}
+.pictureList_module a:hover img {border:1px solid #f40; background-color: #f40;}
+.pictureList_module li img {float:left;border:1px solid #aaa; display:block; width: 150px; height: 150px;}
+.pictureList_module li span {float:left;margin:0px; padding:0px;display: block; font-size: 12px; width: 152px;height:45px; line-height: 180%;}
+
+/*
+ * name    : pictureList_module
+ * content : 图文列表模块
+  */
+.picture_txtList_module {margin:0px; padding:0px;}
+.picture_txtList_module li {padding:5px; overflow: hidden;height: 150px; margin-bottom:10px;}
+.picture_txtList_module li .picture {float:left;display:block;width:150px;height:150px; margin-right:10px; }
+.picture_txtList_module li .picture img {width: 150px; height: 150px;}
+.picture_txtList_module li .picture_txt { float:left;display:block; width: 1000px; height: 150px;}
+.picture_txtList_module li .picture_txt h1 {overflow: hidden; line-height: 18px; height: 18px; font-size:16px;}
+.picture_txtList_module li .picture_txt p {overflow: hidden; color: #777; text-indent: 2em; line-height:125%;height:80px;margin:0px;}
+.picture_txtList_module li .picture_txt span {display: block; line-height:25px; height:25px;font-size:12px;}
+.picture_txtList_module li .picture_txt a{ text-decoration:none; color:#F60;}
+.picture_txtList_module li .picture_txt a:hover{ text-decoration:underline;}
+
+/*
+ * name    : pictureList_module
+ * content : 分页模块
+  */
+.pages_module {padding-right: 0px; padding-left: 0px; padding-bottom: 10px; overflow: hidden; width: 100%; padding-top: 10px; position: relative;}
+.pages_module ol {left: 50%; float: left; position: relative;list-style: none;}
+.pages_module li {right: 50%; float: left; margin: 2px; position: relative; font-size:12px;}
+.pages_module li a {border: 1px solid #000; padding:0px 6px; display: inline-block; width: auto; line-height: 20px; white-space: nowrap; background-color: #fff; text-decoration:none;}
+.pages_module li span {border: 1px solid #000; padding:0px 6px; display: inline-block; width: auto; line-height: 20px; white-space: nowrap; background-color: #fff;}
+.pages_module li a:hover {color: #fff; background-color: #f00; text-decoration: none;}
+.pages_module li a.current {font-weight: bold; cursor: not-allowed; background-color: #ffa401;}
+.pages_module li span.current {font-weight: bold; cursor: not-allowed; background-color: #ffa401;}
+.pages_module li a[title] {font-family: sans-serif;}
+.left.pages_module ol {left: 0px;}
+.left.pages_module li {right: 0px;}
+.right.pages_module ol {left: 100%;}
+.right.pages_module li {right: 100%;}

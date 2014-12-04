@@ -29,6 +29,7 @@ body {
 	width: 50%;
 }
 a {
+	font-size:16px;
 	color:#05F;
 	text-decoration:none;
 }
@@ -37,7 +38,7 @@ a:hover {
 	text-decoration:underline;
 }
 h2 {
-	font-size:14px;
+	font-size:20px;
 }
 h1 {
 	font:20px/28px simhei;
@@ -60,11 +61,11 @@ h1 sup {
 <div id="left">
   <h2>模块</h2>
   <ul>
-    <li><a href="news_list/index.html" target="_blank">列表模块</a></li>
-<!--    <li><a href="模块/图片列表/mod-pic.html">图片列表</a></li>
-    <li><a href="模块/图文列表/mod-pic-txt.html">图文列表</a></li>
-    <li><a href="模块/分页码/mod-pages.html">分页码</a></li>
-    <li><a href="模块/上，左，右隐藏布局.html">上，下，左，右隐藏布局</a></li>
+    <li><a href="news_list/index.html" target="_blank">新闻列表模块</a></li>
+    <li><a href="picture_list1/index.html" target="_blank">图片列表</a></li>
+    <li><a href="picture_list2/index.html" target="_blank">图文列表</a></li>
+    <li><a href="page/index.html">通用分页码模块</a></li>
+<!--    <li><a href="模块/上，左，右隐藏布局.html">上，下，左，右隐藏布局</a></li>
     <li><a href="模块/left-right-iframe/index.html">左隐藏布局</a></li>
     <li><a href="HTML标准/不用表格制作的表单.html">不用table制作的表单</a></li>
     <li><a href="模块/competition/index.html">漂亮滚动条的效果</a></li> -->

@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+    <head>
+    <title>分页码模块效果</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="../css/cyb.common.css" rel="stylesheet" type="text/css">
+    <!--以下内部跟高亮代码有关 开始 -->
+    <link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="../css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCss.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+    <script type="text/javascript">
+
+        SyntaxHighlighter.config.strings = {
+
+            brushNotHtmlScript: '刷子没有配置html-script选项',
+
+            aboutDialog: '<div></div>'
+
+        };
+
+        SyntaxHighlighter.all();
+    </script>
+    <!--以上内部跟高亮代码有关 结束 -->
+    </head>
+    <body>
+<h3>演示效果</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px;">
+<!-- 分页码模块 Start -->
+<p>[通用分页码模块]--默认居中</p>
+<div class="pages_module">
+<ol>
+  <li><a title="到首页" href="#">首页</a></li>
+  <li><a class="prev" title="上一页" href="#">上一页</a></li>
+  <li><span class="current" title="已经是当前页">1</span></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a class="next" title="下一页" href="#">下一页</a></li>
+  <li><a title="到尾页" href="#">尾页</a></li>
+</ol>
+</div>
+  
+<p>[通用分页码模块]--居左添加类名"left"</p>
+<div class="pages_module left">
+<ol>
+  <li><a title="到首页" href="#">首页</a></li>
+  <li><a class="prev" title="上一页" href="#">上一页</a></li>
+  <li><span class="current" title="已经是当前页">1</span></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a class="next" title="下一页" href="#">下一页</a></li>
+  <li><a title="到尾页" href="#">尾页</a></li>
+</ol>
+</div>
+
+<p>[通用分页码模块]--居右添加类名"right"</p>
+<div class="pages_module right">
+<ol>
+  <li><a title="到首页" href="#">首页</a></li>
+  <li><a class="prev" title="上一页" href="#">上一页</a></li>
+  <li><span class="current" title="已经是当前页">1</span></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a class="next" title="下一页" href="#">下一页</a></li>
+  <li><a title="到尾页" href="#">尾页</a></li>
+</ol>
+</div>
+<!-- 分页码模块 End -->
+</div>
+<h3>模块代码</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<pre class="brush:css;">
+<p>[通用分页码模块]--默认居中</p>
+<div class="pages_module">
+<ol>
+  <li><a title="到首页" href="#">首页</a></li>
+  <li><a class="prev" title="上一页" href="#">上一页</a></li>
+  <li><span class="current" title="已经是当前页">1</span></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a class="next" title="下一页" href="#">下一页</a></li>
+  <li><a title="到尾页" href="#">尾页</a></li>
+</ol>
+</div>
+  
+<p>[通用分页码模块]--居左添加类名"left"</p>
+<div class="pages_module left">
+<ol>
+  <li><a title="到首页" href="#">首页</a></li>
+  <li><a class="prev" title="上一页" href="#">上一页</a></li>
+  <li><span class="current" title="已经是当前页">1</span></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a class="next" title="下一页" href="#">下一页</a></li>
+  <li><a title="到尾页" href="#">尾页</a></li>
+</ol>
+</div>
+
+<p>[通用分页码模块]--居右添加类名"right"</p>
+<div class="pages_module right">
+<ol>
+  <li><a title="到首页" href="#">首页</a></li>
+  <li><a class="prev" title="上一页" href="#">上一页</a></li>
+  <li><span class="current" title="已经是当前页">1</span></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a class="next" title="下一页" href="#">下一页</a></li>
+  <li><a title="到尾页" href="#">尾页</a></li>
+</ol>
+</div>
+</pre>
+    </div>
+<h3>模块样式</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<pre class="brush:css;">
+.pages_module {padding-right: 0px; padding-left: 0px; padding-bottom: 10px; overflow: hidden; width: 100%; padding-top: 10px; position: relative;}
+.pages_module ol {left: 50%; float: left; position: relative;list-style: none;}
+.pages_module li {right: 50%; float: left; margin: 2px; position: relative; font-size:12px;}
+.pages_module li a {border: 1px solid #000; padding:0px 6px; display: inline-block; width: auto; line-height: 20px; white-space: nowrap; background-color: #fff; text-decoration:none;}
+.pages_module li span {border: 1px solid #000; padding:0px 6px; display: inline-block; width: auto; line-height: 20px; white-space: nowrap; background-color: #fff;}
+.pages_module li a:hover {color: #fff; background-color: #f00; text-decoration: none;}
+.pages_module li a.current {font-weight: bold; cursor: not-allowed; background-color: #ffa401;}
+.pages_module li span.current {font-weight: bold; cursor: not-allowed; background-color: #ffa401;}
+.pages_module li a[title] {font-family: sans-serif;}
+.left.pages_module ol {left: 0px;}
+.left.pages_module li {right: 0px;}
+.right.pages_module ol {left: 100%;}
+.right.pages_module li {right: 100%;}
+</pre>
+    </div>
+</body>
+</html>

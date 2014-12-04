@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+    <title>图片列表模块效果</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="../css/cyb.common.css" rel="stylesheet" type="text/css">
+    <!--以下内部跟高亮代码有关 开始 -->
+    <link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="../css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCss.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+    <script type="text/javascript">
+
+        SyntaxHighlighter.config.strings = {
+
+            brushNotHtmlScript: '刷子没有配置html-script选项',
+
+            aboutDialog: '<div></div>'
+
+        };
+
+        SyntaxHighlighter.all();
+    </script>
+    <!--以上内部跟高亮代码有关 结束 -->
+    </head>
+    <body>
+<h3>演示效果</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px;">
+<!-- 图片列表模块 Start -->
+<ul class="pictureList_module">
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+</ul>
+<!-- 图片列表模块 End -->
+</div>
+<h3>模块代码</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<pre class="brush:css;">
+<ul class="pictureList_module">
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>This is a long title in English</span></a></li>
+  <li><a href="#"><img alt="alt" title="title" src="../images/picture.jpg"><span>这里是一条长长长的中文文章标题</span></a></li>
+</ul>
+</pre>
+    </div>
+<h3>模块样式</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<pre class="brush:css;">
+.pictureList_module {margin:0px; padding:0px;}
+.pictureList_module li {display:inline-block;*display:inline;*zoom:1;width: 152px;height:195px;margin-right: 20px; margin-bottom:20px; }
+.pictureList_module a {display: block; width: 152px; text-align: center;}
+.pictureList_module a:hover {text-decoration: none; _zoom: 1;}
+.pictureList_module a:hover img {border:1px solid #f40; background-color: #f40;}
+.pictureList_module li img {float:left;border:1px solid #aaa; display:block; width: 150px; height: 150px;}
+.pictureList_module li span {float:left;margin:0px; padding:0px;display: block; font-size: 12px; width: 152px;height:45px; line-height: 180%;}
+</pre>
+    </div>
+</body>
+</html>
