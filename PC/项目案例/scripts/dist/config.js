@@ -1,1 +1,0 @@
-({appDir:"./",baseUrl:"./",dir:"./dist",modules:[{name:"gdt.page"}],fileExclusionRegExp:/^(r|build)\.js$/,optimizeCss:"standard",removeCombined:!0,paths:{plugin:"gdt.plugins"},shim:{}});

@@ -1,16 +1,16 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-    <title>佳邦官网</title>
+    <title>嘉丹婷官网</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <!-- External CSS -->
     <link href="/css/cyb.common.css" rel="stylesheet" type="text/css" />
     <!-- JavaScript -->
-    <script src="/scripts/require.js"  data-main="/scripts/gdt.page" defer async></script>
+    <script src="/scripts/require.js"  data-main="/scripts/gdt.page"></script>
 </head>
 <body class="user" curpage="1">
     <div class="container">
-        <!--#include file="/share/header.aspx" -->
+        <!--#include file="/share/header.asp" -->
         <div class="mainContainer">
             <div class="index_dataBar">
                 <div class="index_dataBar-top">
@@ -37,7 +37,7 @@
                     <!-- 最新动态模块 Start -->
                     <div class="columnCon_module">
                         <div class="title_module">
-                            <span class="txt">最新动态</span> <a class="more" href="newsCenter/default.aspx">More</a>
+                            <span class="txt">最新动态</span> <a class="more" href="#">More</a>
                         </div>
                         <div class="columnCon_module-con">
                             <div class="columnCon_module-con-top">
@@ -66,7 +66,7 @@
                     <!-- 关于我们模块 Start -->
                     <div class="columnCon_module">
                         <div class="title_module">
-                            <span class="txt">关于我们</span> <a class="more" href="aboutBH/default.aspx">More</a>
+                            <span class="txt">关于我们</span> <a class="more" href="#">More</a>
                         </div>
                         <div class="columnCon_module-con">
                             <div class="columnCon_module-con-top">
@@ -84,7 +84,7 @@
                     <!-- 行业解决方案模块 Start -->
                     <div class="columnCon_module">
                         <div class="title_module">
-                            <span class="txt">行业解决方案</span> <a class="more" href="solveCase/default.aspx">More</a>
+                            <span class="txt">行业解决方案</span> <a class="more" href="#">More</a>
                         </div>
                         <div class="columnCon_module-con">
                             <div class="columnCon_module-con-top">
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div>
-        <!--#include file="/share/footer.aspx" -->
+        <!--#include file="/share/footer.asp" -->
     </div>
 </body>
 </html>
