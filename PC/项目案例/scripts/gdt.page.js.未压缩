@@ -1,0 +1,85 @@
+﻿require.config({
+    baseUrl: "/scripts",
+    paths: {
+        plugin: "gdt.plugins"
+    },
+    shim: {
+
+    }
+});
+
+require(["plugin"], function (jQuery) {
+    /*************************************
+    * name		: PagesInit
+    * content	: 各页面调用函数
+    ************************************/
+    var PagesInit = {
+        // 所有页面调用
+        all: function (opt) {
+            var _opt = opt,
+			_curNavIndex = _opt.curNavIndex,
+            _curSideBarIndex = _opt.curSideBarIndex,
+            _curTabIndex = _opt.curTabIndex;
+
+            jQuery.navInit(_curNavIndex); // 主导航栏初始化
+
+            jQuery.sideBarInit(_curSideBarIndex); // 侧栏初始化
+
+            jQuery.curTab(_curTabIndex);
+
+            jQuery.defaultTxt();
+
+        },
+
+        // 用户主页调用
+        u_index: function () {
+            jQuery.slick();
+        },
+        u_trianC: function () {
+
+        },
+        u_conver: function (_opt) {
+
+        },
+        u_service: function (_opt) {
+            jQuery("#tabCon").tab({
+                TabInitName: "tab01"
+            });
+        },
+        u_noti: function (_opt) {
+
+        }
+    };
+
+
+    /*************************************
+    * name		: use
+    * content	: 调用函数
+    ************************************/
+    jQuery(document).ready(function () {
+        var _optArr = jQuery.curPageInfo(jQuery(".user")); // 当前页信息
+
+        switch (_optArr[0]) {
+            case "1":
+                PagesInit.u_index();
+                break;
+            case "2":
+
+                break;
+            case "3":
+                break;
+            case "4":
+                PagesInit.u_service();
+                break;
+            case "7":
+
+                break;
+        }
+
+        PagesInit.all({
+            curNavIndex: parseInt(_optArr[0]),
+            curSideBarIndex: parseInt(_optArr[1]),
+            curTabIndex: parseInt(_optArr[2])
+        });
+    });
+});

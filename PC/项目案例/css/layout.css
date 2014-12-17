@@ -11,6 +11,13 @@
 .fn_unline{ text-decoration:underline;}
 .fn_inText{ border:1px solid #ccc; height:19px; line-height:19px; padding:0px 3px;}
 .fn_h40{ height:40px; clear:both;}
+.fn_fix{ overflow:hidden;width:100%;}
+.fn_tIndent0{ text-indent:0px !important;}
+.fn_inText{ border:1px solid #c5c5c5; padding:3px;}
+.fn_select{ border:1px solid #c5c5c5;}
+.fn_btn_blue{width:127px; height:45px; line-height:45px; font-size:24px; border:0; background-color:#2f94e2;}
+.fn_btn_gray{width:127px; height:45px; line-height:45px; font-size:24px; border:0; background-color:#9a9a9a;}
+.fn_w_580{ width:580px;}
 
 /*
  * name    : common
@@ -20,6 +27,10 @@ body{}
 .com_ele_pics{ background:url(../images/common_ele_pics.png) no-repeat 0px 0px;display:inline-block;*display:inline;*zoom:1;}
 .searchBg{ background-position:0px 0px; width:187px; height:25px; border:0;}
 .iconList{width:7px; height:7px; background-position:0px -25px;}
+.btn_sure{width:45px; height:27px; background-position:0px -42px;}
+.bg_title{width:215px; height:19px; background-position:0px -69px;}
+.iconEL{width:12px; height:11px; background-position:0px -88px;}
+.iconWL{width:15px; height:15px; background-position:0px -99px;}
 
 .comm_searchCon{ overflow:hidden; *margin-top:20px;}
 .comm_searchCon input{float:left;}
@@ -35,8 +46,8 @@ body{}
 .header_con{width:1002px; margin:0px auto;}
 .logo_con a{ vertical-align:middle; padding-top:10px; display:block;}
 
-.headerRight_con_top{ height:54px; line-height:54px; text-align:right; width:706px;}
-.headerRight_con_top .item{ display:inline-block;*display:inline;*zoom:1; font-size:12px; color:#888; margin-left:10px; vertical-align:middle;}
+.headerRight_con_top{ height:54px; line-height:54px; text-align:right; width:720px;}
+.headerRight_con_top .item{ display:inline-block;*display:inline;*zoom:1; font-size:12px; color:#888; margin-left:10px; vertical-align:middle; padding-top:20px; line-height:100%;}
 .headerRight_con_top .comm_searchCon{ height:25px; vertical-align:middle; text-align:left;}
 
 
@@ -44,15 +55,17 @@ body{}
  * name    : mainContainer
  * content : ��Ҫ����������ʽ
  */
-.mainContainer{width:100%; top:-8px; margin:0px auto; background-color:#fff; min-height:840px; z-index:0; position:relative;}
+.mainContainer{width:100%;margin-top:-8px;background-color:#fff;z-index:0; position:relative;}
 
 /*
  * name    : index_dataBar
  * content : indexҳ������ʽ
  */
-.index_dataBar{width:100%;margin:0px auto;overflow:hidden;}
-.index_dataBar-bottom{ width:1002px; margin:0px auto;}
-.index_dataBar-bottom .columnCon_module{float:left; white-space:nowrap; width:303px; margin-right:31px; margin-top:30px;}
+.index_dataBar{width:100%;overflow:hidden;}
+.index_dataBar-bottom{ width:1002px; margin:0px auto; padding-top:450px; overflow:hidden;}
+.index_dataBar-bottom .columnCon_module{float:left; white-space:nowrap; width:303px; margin-right:31px; margin-top:30px; padding-bottom:30px;}
+.index_dataBar-top{width:1440px; height:450px;position:absolute;left:50%; margin-left:-720px;top:0px; overflow:hidden;}
+.index_dataBar-top .bannerShow_module{}
 
 /*
  * name    : footer
@@ -63,3 +76,84 @@ body{}
 .footer-con table{ width:100%; border:none;}
 .footer-con table td{height:75px; color:#333333; font-size:12px; text-align:center; line-height:20px; font-family:"����";}
 .footer-con table td a{ vertical-align:middle; margin:0px 4px;}
+
+/*
+ * name    : innerPage
+ * content : 内页公共样式
+ */
+.innerPage{background:url(../images/innerPage_ele_pic_bg.jpg) repeat-x 0px 0px #f7f7f7;}
+.innerPageCon{width:982px; margin:0px auto; padding:10px 10px 0px 10px;background-color:#fff;}
+.innerPageCon-banner{ font-size:0;}
+.innerPageCon-left,.innerPageCon-right{ float:left;}
+.innerPageCon-left{width:231px;}
+.innerPageCon-right{width:741px; padding-left:10px;}
+
+.innerPageCon-left .sideBar_module{ margin-right:1px;}
+.innerPageCon-right{ background:url(../images/innerPage_ele_pic_sideBg.png) repeat-y 0px 0px; min-height:400px;}
+.innerPage-mainCon{ padding:10px 15px 30px 15px;}
+
+.info_item{ margin-top:15px;}
+.info_item .info_txt,.info_item .info_txt02,.info_item .info_title,.info_item .info_title02{margin:0px;}
+.info_txt{ text-indent:24px; font-size:12px; color:#666; line-height:22px;}
+.info_txt02{font-size:12px; color:#666; line-height:22px;}
+.info_txt img.fn_fr{ margin-left:10px; border:1px solid #88ccfc;}
+.info_title{font-size:12px;line-height:22px;color:#f15011; margin-top:20px; font-weight:bold;}
+.info_title02{font-size:12px;line-height:22px;color:#717171; margin-top:20px; font-weight:bold;}
+
+/*
+ * name    : aboutBH_culture_intro
+ * content : 认识佳邦-企业文化-佳邦生活
+ */
+.aboutBH_culture_intro .newsList_module{ margin:20px 30px;}
+.aboutBH_culture_intro .newsList_module-item{ border-bottom:1px dashed #cecece; height:31px; line-height:31px;}
+.aboutBH_culture_intro .newsList_module-item .txt{width:90%;}
+.aboutBH_culture_intro .newsList_module-item .txt,.aboutBH_culture_intro .newsList_module-item .iconList{ margin-bottom:4px;}
+.aboutBH_culture_intro .newsList_module-item .iconList{background-position:0px -37px;width:3px; height:5px;}
+.aboutBH_culture_intro .newsList_module-item:hover .txt{ text-decoration:none; color:#0303d8;}
+.aboutBH_culture_intro .newsList_module-item:hover .iconList{background-position:0px -32px;}
+.aboutBH_culture_intro .article_title,.aboutBH_culture_intro .article_author{ text-align:center; color:#717171; font-weight:normal; margin:10px 0px;}
+.articlie_content{ font-size:12px; color:#717171; line-height:24px; }
+.articlie_content .articlie_part{ font-size:12px; color:#717171; line-height:24px; text-indent:24px;}
+.aboutBH_culture_intro .return_module{ margin:20px 0px;}
+
+/*
+ * name    : aboutBH_culture_intro
+ * content : 认识佳邦-组织架构
+ */
+.aboutBH_structure_intro img{ margin:40px 0px;}
+
+/*
+ * name    : service_techS_intro
+ * content : 服务体系-技术服务
+ */
+ .STI_tabcon .tabHead{ height:37px; text-align:right;}
+ .STI_tabcon .tabHead-item{ display:inline-block;*display:inline;*zoom:1;width:107px; height:37px; background:url(../images/service_pics_tabBg.png) no-repeat 0px -37px; font-size:12px; text-align:center; line-height:26px; *margin:0px 3px; cursor:pointer;}
+ .STI_tabcon .tabHead-item.active{ background-position:0 0;}
+ .service_techS_pic{ padding-top:30px;}
+
+.aboutBH_culture_intro .picsList_module{ margin:20px 30px;}
+.aboutBH_culture_intro .picsList_module{}
+
+/*
+ * name    : employ_default_intro
+ * content : 招贤纳士
+ */
+.employ_default_intro{ margin:20px 30px;}
+.employ_submitInfo_table td{ font-size:14px; padding:10px 5px;}
+.employ_submitInfo_table table{ width:100%;}
+.resumeList td{ text-align:center;}
+.employ_submitInfo_table .btnCon{ padding:20px 0px;}
+.btnCon input{ margin:0px 20px;}
+
+/*
+ * name    : feedBack_default_intro
+ * content : 联系反馈
+ */
+.infoSubmit_module .btnCon{ margin:20px 0px 40px 0px;}
+.feedBack_default_intro .info_item{ margin:20px 10px;}
+
+/*
+ * name    : 新增加样式
+ * content : 
+ */
+.red{color:#F00 !important;}

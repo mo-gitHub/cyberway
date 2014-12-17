@@ -64,7 +64,10 @@ h1 sup {
     <li><a href="news_list/index.html" target="_blank">新闻列表模块</a></li>
     <li><a href="picture_list1/index.html" target="_blank">图片列表</a></li>
     <li><a href="picture_list2/index.html" target="_blank">图文列表</a></li>
-    <li><a href="page/index.html">通用分页码模块</a></li>
+    <li><a href="page/index.html" target="_blank">通用分页码模块</a></li>
+    <li><a href="pmgressbar/index.html" target="_blank">进度条</a></li>
+    <li><a href="location/index.html" target="_blank">面包屑（位置条）</a></li>
+    <li><a href="sideBar1/index.html" target="_blank">左侧二级菜单（含三级菜单）1</a></li>
 <!--    <li><a href="模块/上，左，右隐藏布局.html">上，下，左，右隐藏布局</a></li>
     <li><a href="模块/left-right-iframe/index.html">左隐藏布局</a></li>
     <li><a href="HTML标准/不用表格制作的表单.html">不用table制作的表单</a></li>
