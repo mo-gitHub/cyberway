@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+    <title>面包屑（位置条）效果</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="../css/cyb.common.css" rel="stylesheet" type="text/css">
+    <!--以下内部跟高亮代码有关 开始 -->
+    <link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="../css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCss.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+    <script type="text/javascript">
+
+        SyntaxHighlighter.config.strings = {
+
+            brushNotHtmlScript: '刷子没有配置html-script选项',
+
+            aboutDialog: '<div></div>'
+
+        };
+
+        SyntaxHighlighter.all();
+    </script>
+    <!--以上内部跟高亮代码有关 结束 -->
+    </head>
+    <body>
+<h3>演示效果</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px;"> 
+<!-- 内页title模块 Start -->
+  <div class="pageTitle_module">
+    <div class="pageTitle_module-list"><a class="item">当前位置：</a><a class="item link" href="#">首页</a> <a class="item">></a><a
+                                    class="item link" href="#"> 认识佳邦</a><a class="item">></a><a class="item current">公司简介</a> </div>
+    <div class="pageTitle_module-txt">公司简介</div>
+  </div>
+<!-- 内页title模块 End -->
+</div>
+<h3>模块代码</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<pre class="brush:css;">
+<div class="pageTitle_module">
+    <div class="pageTitle_module-list"><a class="item">当前位置：</a><a class="item link" href="#">首页</a> <a class="item">></a><a
+                                    class="item link" href="#"> 认识佳邦</a><a class="item">></a><a class="item current">公司简介</a> </div>
+    <div class="pageTitle_module-txt">公司简介</div>
+</div>
+</pre>
+</div>
+<h3>模块样式</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+      <pre class="brush:css;">
+.pageTitle_module{ position:relative; border-bottom:1px solid #c5c5c5; height:48px;margin-bottom:15px;}
+.pageTitle_module-list{ text-align:right; padding-top:22px;}
+.pageTitle_module-list .item{ display:inline-block;*display:inline;*zoom:1; font-size:12px; color:#9a9a9a; margin-left:6px;text-decoration:none;}
+.pageTitle_module-list .link:hover{ text-decoration:underline; color:#F00;}
+.pageTitle_module-list .current{color:#00F;}
+.pageTitle_module-txt{ font-size:20px; color:#444; position:absolute;bottom:4px;left:0px;}
+</pre>
+    </div>
+</body>
+</html>

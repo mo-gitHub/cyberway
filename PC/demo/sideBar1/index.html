@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+    <title>内页左侧二级菜单（含三级菜单）效果</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="../css/cyb.common.css" rel="stylesheet" type="text/css">
+    <!--以下内部跟高亮代码有关 开始 -->
+    <link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="../css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCss.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+    <script type="text/javascript">
+
+        SyntaxHighlighter.config.strings = {
+
+            brushNotHtmlScript: '刷子没有配置html-script选项',
+
+            aboutDialog: '<div></div>'
+
+        };
+
+        SyntaxHighlighter.all();
+    </script>
+    <!--以上内部跟高亮代码有关 结束 -->
+    </head>
+    <body>
+<h3>演示效果</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px;"> 
+<!-- 内页左侧二级菜单（含三级菜单）模块 Start -->
+<div class="sideBar_module">
+<div class="sideBar_module-head">认识佳邦</div>
+<div class="sideBar_module-body">
+        <div class="sideBar_module_item item">
+            <a class="f_link" href="#">公司简介</a>
+        </div>
+        <div class="sideBar_module_item item">
+            <a class="f_link" href="#">企业文化</a>
+            <ul class="sideBar_module-c_list">
+                <li class="c_list_item"><a class="c_link" href="#">佳邦文化</a></li>
+                <li class="c_list_item"><a class="c_link" href="#">佳邦生活</a></li>
+            </ul>
+        </div>
+        <div class="sideBar_module_item item">
+            <a class="f_link" href="#">组织架构</a>
+        </div>
+        <div class="sideBar_module_item item">
+            <a class="f_link" href="#">资质认证</a>
+        </div>
+    </div>
+ </div>
+<!-- 内页左侧二级菜单（含三级菜单）模块 End -->
+</div>
+<h3>模块代码</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<pre class="brush:css;">
+<div class="sideBar_module">
+<div class="sideBar_module-head">认识佳邦</div>
+<div class="sideBar_module-body">
+        <div class="sideBar_module_item item">
+            <a class="f_link" href="#">公司简介</a>
+        </div>
+        <div class="sideBar_module_item item">
+            <a class="f_link" href="#">企业文化</a>
+            <ul class="sideBar_module-c_list">
+                <li class="c_list_item"><a class="c_link" href="#">佳邦文化</a></li>
+                <li class="c_list_item"><a class="c_link" href="#">佳邦生活</a></li>
+            </ul>
+        </div>
+        <div class="sideBar_module_item item">
+            <a class="f_link" href="#">组织架构</a>
+        </div>
+        <div class="sideBar_module_item item">
+            <a class="f_link" href="#">资质认证</a>
+        </div>
+    </div>
+ </div></pre>
+</div>
+<h3>模块样式</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<pre class="brush:css;">
+.sideBar_module{ width:300px;}
+.sideBar_module-head{ height:92px; line-height:92px; background:url(../images/sideBar_module_head_bg.png) repeat-x left bottom; font-size:28px; text-align:center;}
+.sideBar_module_item{ height:41px; line-height:41px; text-align:center; border-bottom:1px solid #a5d9fd; position:relative;}
+.sideBar_module_item .f_link{width:230px;height:33px; line-height:33px; vertical-align:middle; margin-bottom:4px; display:inline-block;*display:inline;*zoom:1; color:#838282;text-decoration:none; font-weight:bold;}
+.sideBar_module_item .sideBar_module-c_list{ position:absolute;right:-106px;top:-1px; display:none;}
+.sideBar_module-c_list{width:102px; background-color:#fff; margin:0px; padding:0px; border:2px solid #8ccdfc; border-bottom-width:1px;}
+.sideBar_module-c_list li{ list-style:none; border-bottom:1px solid #8ccdfc;}
+.sideBar_module-c_list .c_link{ color:#027acf; text-decoration:none;font-size:12px; height:30px; line-height:30px; display:block;}
+.sideBar_module-c_list .c_link:hover{ background-color:#f6fbff;}
+.sideBar_module_item:hover .f_link,.sideBar_module_item.current .f_link{ background:url(../images/sideBar_module_item_current.png) no-repeat 50% 50%;color:#fff;}
+.sideBar_module_item:hover .sideBar_module-c_list{ display:block;}
+</pre>
+    </div>
+</body>
+</html>
