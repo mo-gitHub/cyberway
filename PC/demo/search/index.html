@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+    <head>
+    <title>图文列表模块效果</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="../css/cyb.common.css" rel="stylesheet" type="text/css">
+    <!--以下内部跟高亮代码有关 开始 -->
+    <link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="../css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../scripts/shCore.js"></script>
+    <script type="text/javascript" src="../scripts/shBrushCss.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+    <script type="text/javascript">
+
+        SyntaxHighlighter.config.strings = {
+
+            brushNotHtmlScript: '刷子没有配置html-script选项',
+
+            aboutDialog: '<div></div>'
+
+        };
+
+        SyntaxHighlighter.all();
+    </script>
+    <!--以上内部跟高亮代码有关 结束 -->
+    </head>
+    <body>
+<h3>演示效果</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px;">
+<!-- 搜索结果列表模块 Start -->
+<ul class="search_module">
+  <li>
+    <div class="headline">
+    <div class="title"><a title="title" href="detail.aspx">这里是搜索结果标题</a></div>
+    <div class="date">[2014-12-20]</div>
+    </div>
+    <div class="content">这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容。这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容。</div>
+    <div class="more"><a title="title" href="detail.aspx">更多»</a></div>
+    <div class="location"><a href="#">企业分享</a>><a href="#">企业新闻</a></div>
+    </li>
+    <li>
+    <div class="headline">
+    <div class="title"><a title="title" href="detail.aspx">Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one</a></div><div class="date">[2014-12-20]</div></div>
+    <div class="content">Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one.Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one.</div>
+    <div class="more"><a title="title" href="detail.aspx">更多»</a></div>
+    <div class="location"><a href="#">企业分享</a>><a href="#">企业新闻</a></div>
+    </li>
+</ul>
+<!-- 搜索结果列表模块 End -->
+</div>
+<h3>模块代码</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<pre class="brush:css;">
+<ul class="search_module">
+  <li>
+    <div class="headline">
+    <div class="title"><a title="title" href="detail.aspx">这里是搜索结果标题</a></div>
+    <div class="date">[2014-12-20]</div>
+    </div>
+    <div class="content">这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容。这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容这里是搜索结果内容，这里是搜索结果内容这里是搜索结果内容。</div>
+    <div class="more"><a title="title" href="detail.aspx">更多»</a></div>
+    <div class="location"><a href="#">企业分享</a>><a href="#">企业新闻</a></div>
+    </li>
+    <li>
+    <div class="headline">
+    <div class="title"><a title="title" href="detail.aspx">Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one</a></div><div class="date">[2014-12-20]</div></div>
+    <div class="content">Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one.Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one. Today was good. Today was fun. Tomorrow is another one.</div>
+    <div class="more"><a title="title" href="detail.aspx">更多»</a></div>
+    <div class="location"><a href="#">企业分享</a>><a href="#">企业新闻</a></div>
+    </li>
+</ul>
+</pre>
+    </div>
+<h3>模块样式</h3>
+<div style="border:1px solid #999; margin:10px; padding:10px; font-size:14px;">
+<pre class="brush:css;">
+.search_module {margin:0px; padding:0px;}
+.search_module li {width:100%; overflow: hidden;height: 190px; margin-bottom:10px;}
+.search_module li .headline{line-height: 18px; height: 18px; font-size:14px; margin:0px; margin-bottom:6px;color:#777777;overflow:hidden;cursor:pointer; display:block;}
+.search_module li .headline .title { float:left; width:85%;-o-text-overflow:ellipsis;text-overflow:ellipsis; white-space:nowrap;overflow:hidden;font-weight:normal;color:#777777; }
+.search_module li .headline a{color:#777777;}
+.search_module li .headline .date { float:right;width:14%;font-size:12px;font-weight:normal; text-align:right;}
+.search_module li .headline:hover a,.search_module li .headline:hover .date{color:#0ab4de;}
+.search_module li .content{ clear:both;overflow: hidden; color: #777; text-indent: 2em; line-height:180%;height:88px;margin:0px;}
+.search_module li .more{line-height:150%; height:25px;font-size:12px; margin-top:5px;color:#0ab4de;}
+.search_module li .more a{color:#0ab4de;}
+.search_module li .more a:hover{text-decoration:underline;}
+.search_module li .location{line-height:25px; height:25px;font-size:12px; color:#777; border-bottom:1px dashed #999999; text-align:right;}
+.search_module li .location a{color:#0ab4de; margin:0px 5px;}
+.search_module li .location a:hover{text-decoration:underline;}
+</pre>
+    </div>
+</body>
+</html>

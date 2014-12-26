@@ -68,9 +68,9 @@ h1 sup {
     <li><a href="pmgressbar/index.html" target="_blank">进度条</a></li>
     <li><a href="location/index.html" target="_blank">面包屑（位置条）</a></li>
     <li><a href="sideBar1/index.html" target="_blank">左侧二级菜单（含三级菜单）1</a></li>
-<!--    <li><a href="模块/上，左，右隐藏布局.html">上，下，左，右隐藏布局</a></li>
-    <li><a href="模块/left-right-iframe/index.html">左隐藏布局</a></li>
-    <li><a href="HTML标准/不用表格制作的表单.html">不用table制作的表单</a></li>
+    <li><a href="weibo_weixin/index.html" target="_blank">微博、微信效果</a></li>
+    <li><a href="search/index.html" target="_blank">搜索结果</a></li>
+<!--    <li><a href="HTML标准/不用表格制作的表单.html">不用table制作的表单</a></li>
     <li><a href="模块/competition/index.html">漂亮滚动条的效果</a></li> -->
   </ul>
 </div>
