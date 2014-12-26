@@ -2,6 +2,7 @@
  * name    : Ô­×ÓÀà
  * content : fn
  */
+ a{ text-decoration:none;}
 .fn_fl{ float:left;}
 .fn_fr{ float:right;}
 .fn_tl{ text-align:left !important;}
